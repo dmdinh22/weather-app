@@ -19,7 +19,7 @@ struct WeatherCellViewModel {
         }
         
         let image = UIImage(data: imageData)
-        DispatchQueue.main.async {
+        DispatchQueue.global(qos: .background).async {
             completion(image)
         }
     }
