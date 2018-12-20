@@ -16,6 +16,7 @@
 		54C66E2F21CA41000061CC64 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C66E2E21CA41000061CC64 /* APIClient.swift */; };
 		54C66E3121CB52370061CC64 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C66E3021CB52370061CC64 /* Endpoint.swift */; };
 		54C66E3321CB54300061CC64 /* WeatherAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C66E3221CB54300061CC64 /* WeatherAPIClient.swift */; };
+		54C66E3521CB6CBF0061CC64 /* WeatherCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C66E3421CB6CBF0061CC64 /* WeatherCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		54C66E2E21CA41000061CC64 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		54C66E3021CB52370061CC64 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		54C66E3221CB54300061CC64 /* WeatherAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIClient.swift; sourceTree = "<group>"; };
+		54C66E3421CB6CBF0061CC64 /* WeatherCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		54C66E2621CA2EC70061CC64 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				54C66E3421CB6CBF0061CC64 /* WeatherCellViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				54C66E2A21CA2F120061CC64 /* WeatherTableViewController.swift in Sources */,
 				54C66E2D21CA39BC0061CC64 /* Weather.swift in Sources */,
 				54C66E1521CA2E240061CC64 /* AppDelegate.swift in Sources */,
+				54C66E3521CB6CBF0061CC64 /* WeatherCellViewModel.swift in Sources */,
 				54C66E2F21CA41000061CC64 /* APIClient.swift in Sources */,
 				54C66E3121CB52370061CC64 /* Endpoint.swift in Sources */,
 			);
